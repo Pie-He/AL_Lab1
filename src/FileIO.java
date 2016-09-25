@@ -2,9 +2,6 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by admin on 2016/9/21.
- */
 public class FileIO {
     public static List<String> readFile(String path) throws IOException {
         FileReader fileReader=null;
